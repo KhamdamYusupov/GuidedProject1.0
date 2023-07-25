@@ -1,9 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
-        new Quiz();
-
-
+        Quiz quiz = new Quiz();
     }
 }
 
@@ -314,6 +311,5 @@ public class Quiz implements ActionListener{
 
         frame.add(number_right);
         frame.add(percentage);
-
     }
 }
